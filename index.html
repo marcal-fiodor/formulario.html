@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Satisfação</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <p>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome completo" id="nome">
+    </p>
+    <p>
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Digite seu E-mail" id="email">
+    </p>
+    <p>
+        <label for="numero">Telefone</label>
+        <input type="number" placeholder="Digite seu número de celular" id="numero">
+    </p>
+    <p>
+        <h3>Sobre sua satisfação com nosso atendimento, em sua opinião, você recebeu um bom atendimento em nosso estabelecimento?</h3>
+        <div>
+           <input type="radio" id="positivo" name="bom-atendiemnto">
+           <label for="positivo">Sim, fui bem atendido e irei recomendar o restaurante para amigos/familiares.</label>
+        </div>
+        <div>
+           <input type="radio" id="mediano" name="bom-atendiemnto">
+           <label for="mediano">Gostei do atendiemnto, mas não recomendaria o restaurante.</label>
+        </div>
+        <div>
+            <input type="radio" id="insatisfeito" name="bom-atendimento">
+            <label for="insatisfeito">Não gostei do atendimento.</label>
+        </div>
+    </p>
+    <p> 
+        <h3>Dentre os pontos que você mais gostou enquanto estava em nosso estabelecimento, marque os que mais se destacaram em sua opinião:</h3>
+        <div>
+            <input type="radio" id="atendiemnto">
+            <label for="atendiemnto">Atendimento e educação dos funcionários</label>
+        </div>
+        <div>
+            <input type="radio" id="comida">
+            <label for="comida">Comida saborosa e no ponto certo</label>
+        </div>
+        <div>
+            <input type="radio" id="preco">
+            <label for="preco">Preço justo pelo serviço ofertado</label>
+        </div>
+        <div>
+            <input type="radio" id="local">
+            <label for="local">Bem localizado e com vagas para estacionar</label>
+        </div>
+        <div>
+            <input type="radio" id="conforto">
+            <label for="conforto">Ambiente confortável e climatizado</label>
+        </div>
+    </p>
+    <p>
+        <h3>Em qual de nossas unidades você teve esta experiência?</h3>
+        <select>
+            <option>Bom Despacho - MG</option>
+            <option>Divínopolis - MG</option>
+            <option>Lagoa da Prata - MG</option>
+            <option>São Paulo _ SP</option>
+            <option>Salvador - BA</option>
+            <option>Curitiba - PR</option>
+        </select>
+    </p>
+    <p>
+        <div>
+            <input type="checkbox" id="termos">
+            <label for="termos">Autorizo o compartilhamento de minhas respostas com terceiros.</label>
+        </div>
+        <div>
+        <input type="submit" value="Enviar formulário">
+        </div>
+    </p>
+</body>
+</html>
